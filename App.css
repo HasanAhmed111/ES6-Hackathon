@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.body {
+    background:rgb(9, 9, 9) center center;
+    width: 100%;
+    height: 100vh;
+}
+
+.overlay {
+    background-color: rgba(83, 251, 94, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    background-color: rgb(60, 59, 59);
+    padding: 10px;
+}
+
+.h1 {
+    color: rgb(250, 248, 248) !important;
+    margin-left: 0px !important;
+    font-size: 25px;
+    display: inline;
+    position: relative;
+    bottom: 0px;
+}
+
+.head img {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: inline;
+}
+
+.box {
+    background-color: rgb(4, 75, 120);
+    box-sizing: border-box;
+    box-shadow: rgba(15, 15, 15, 0.16) 50px 10px 9px, rgb(0 0 0 / 23%) 10px 10px 30px;
+    border-radius: 20       px;
+    height: auto;
+    min-height: 500px;
+    width: 350px;
+    margin: 40px;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+.box input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(81, 219, 42);
+    margin-top: 50px;
+    font-size: 25px;
+    width: 100%;
+}
+
+.box input:focus {
+    border-bottom: 2px solid rgb(66, 248, 72);
+}
+
+.box button {
+    position: relative;
+    opacity: 1;
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    margin: 0px 10px 0px;
+    user-select: none;
+    color: rgba(16, 15, 15, 0.87);
+    background-color: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: rgba(7, 7, 7, 0.16) 0px 3px 10px, rgb(0 0 0 / 23%) 0px 3px 10px;
+    width: auto;
+}
+
+.edi {
+    background-color: #33f936;
+    border: 2px solid #6df846;
+    color: #0d0d0d;
+    margin-top: 20px;
+}
+
+.remo {
+    background-color: #fd0404;
+    border: 2px solid #f30b0b;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.list {
+    list-style-type: none;
+    border-bottom: 2px solid #05be05;
+}
+    .home{
+        background-image: url("https://urbanhospitaldahod.com/assets/uploads/bl4.jpg");
+        background-size: cover;
+    }
